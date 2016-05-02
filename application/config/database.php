@@ -64,10 +64,10 @@ $query_builder = TRUE;
 
 if(ENVIRONMENT == 'production')
 {
-	$db['default']['hostname'] = 'localhost';
-	$db['default']['username'] = 'root';
-	$db['default']['password'] = '';
-	$db['default']['database'] = '';
+	$db['default']['hostname'] = 'ec2-52-87-204-3.compute-1.amazonaws.com';
+	$db['default']['username'] = 'ubuntu';
+	$db['default']['password'] = 'Naruto45';
+	$db['default']['database'] = 'tbuddy';
 }
 else
 {
