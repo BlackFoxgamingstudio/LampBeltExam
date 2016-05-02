@@ -1,0 +1,32 @@
+/** {
+	border: red 1px dotted;
+}*/
+.errors {
+	color: red;
+}
+.star{
+	width:20px;
+}
+ul {
+	padding: 0px;
+}
+ul li{
+	list-style-type: none;
+	text-align: left;
+}
+.rating-title{
+	display:block;
+}
+.rating{
+	display: inline;
+}
+.star-holder{
+	display:inline-block;
+}
+#other-reviews {
+	height: 100px;
+	overflow-y: scroll;
+}
+	#other-reviews li {
+		line-height: 2;
+	}
